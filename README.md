@@ -43,13 +43,13 @@ All datasets used for these queries are located inside the `datasets/` folder:
 Make sure to load them into your SQL database before running the scripts.
 
 ---
-# Project 2: India General Elections 2024 Analysis
+## Project 2: India General Elections 2024 Analysis
 
-## 📌 Overview
+###📌 Overview
 
 This project presents an analytical deep dive into the **2024 Indian General Election results**. The aim is to understand voting patterns, party-wise performance, constituency-level statistics, and overall vote share across the nation. The analysis focuses on deriving insights from raw election data to reveal trends, dominance regions, and participation metrics.
 
-## 📂 Dataset
+### 📂 Dataset
 
 - **Source**: Datasets provided in csv format.
 - **Contents**:
@@ -62,7 +62,7 @@ This project presents an analytical deep dive into the **2024 Indian General Ele
 
 > Note: The dataset was cleaned, transformed, and loaded into MS SQL for structured querying and efficient analysis.
 
-## 🛠️ Key Things Used in MS SQL
+### 🛠️ Key Things Used in MS SQL
 
 - **CTEs (Common Table Expressions)** for simplifying complex queries  
 - **Window Functions** (`RANK()`, `ROW_NUMBER()`, `SUM() OVER(...)`) to perform ranking and aggregations  
